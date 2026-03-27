@@ -61,10 +61,10 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start; /* 🔥 key line */
-  gap: 60px;
+  gap: 50px;
   margin-top: 30px;
   padding-left: 35px;
- 
+  padding-right: 35px
 }
 
 .card {
