@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Club Details</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="club.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">Club<span>dive</span></div>
+
+  <nav class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="browse.html">Clubs</a>
+    <a href="quiz.html">Find Your Club</a>
+  </nav>
+
+  <button class="signin-btn">Sign in →</button>
+</header>
+
+<!-- HERO -->
+<div class="club-hero">
+  <div class="overlay"></div>
+
+  <div class="hero-text">
+    <a href="browse.html" class="back">← All Clubs</a>
+    <h1 id="club-name">Club Name</h1>
+    <p id="club-tagline">Tagline here</p>
+  </div>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="club-container">
+
+  <!-- LEFT -->
+  <div class="left">
+
+    <h2>About</h2>
+    <p id="club-about">
+      Dummy description
+    </p>
+
+    <h2>Flagship Event</h2>
+<div id="events-container"></div>
+
+
+    
+  </div>
+
+  <!-- RIGHT -->
+  <div class="right">
+
+    <div class="info-box">
+      <h3>Quick Info</h3>
+      <p>👥 120 members</p>
+      <p>📅 5 events hosted</p>
+
+      <h4>Category</h4>
+      <p id="club-category">Technical</p>
+
+      <h4>Tags</h4>
+      <div class="tags">
+        <span>Coding</span>
+        <span>Hackathons</span>
+        <span>Web Dev</span>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="club.js"></script>
+</body>
+</html>
